@@ -1,0 +1,16 @@
+{
+  "name": "roadiform-server",
+  "version": "0.0.1",
+  "main": "server.js",
+  "license": "GPL-3.0",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "arweavekit": "^1.5.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
